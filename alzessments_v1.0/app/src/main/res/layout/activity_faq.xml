@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3C3C"
+    android:clickable="true"
+    tools:context=".faqActivity">
+
+    <TextView
+        android:id="@+id/textView_faqActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/txt_faq"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_faqQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_faqInstructions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#BCBCBC"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_faqInstructions"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        android:gravity="center"
+        android:text="@string/txt_faqInstructions"
+        android:textColor="#FDFCFC"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_faq1"
+        android:layout_width="165dp"
+        android:layout_height="86dp"
+        android:layout_below="@+id/button_faq3"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="27dp"
+        android:background="#DFD78A"
+        android:clickable="true"
+        android:onClick="scoreAdd1"
+        android:text="@string/btn_faq1"
+        android:textSize="14sp"
+         />
+
+    <Button
+        android:id="@+id/button_faq3"
+        android:layout_width="165dp"
+        android:layout_height="85dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="267dp"
+        android:background="#F16B6B"
+        android:clickable="true"
+        android:onClick="scoreAdd3"
+        android:text="@string/btn_faq3"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button_faq0"
+        android:layout_width="165dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/button_faq2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:background="#6E9173"
+        android:clickable="true"
+        android:onClick="scoreAdd0"
+        android:text="@string/btn_faq0"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button_faq2"
+        android:layout_width="165dp"
+        android:layout_height="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:background="#D58D6C"
+        android:clickable="true"
+        android:onClick="scoreAdd2"
+        android:text="@string/btn_faq2"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button_faq01"
+        android:layout_width="123dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginBottom="88dp"
+        android:clickable="true"
+        android:onClick="scoreAdd1"
+        android:text="@string/btn_faq01"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button_faq00"
+        android:layout_width="123dp"
+        android:layout_height="86dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="88dp"
+        android:clickable="true"
+        android:onClick="scoreAdd0"
+        android:text="@string/btn_faq00"
+        android:textSize="10sp" />
+
+</RelativeLayout>

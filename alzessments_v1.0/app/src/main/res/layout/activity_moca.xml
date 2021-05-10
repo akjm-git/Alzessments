@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3C3C"
+    tools:context=".mocaActivity">
+
+    <TextView
+        android:id="@+id/textView_mocaActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="@string/txt_moca"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView_animals"
+        android:layout_width="219dp"
+        android:layout_height="198dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="269dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp" />
+
+    <TextView
+        android:id="@+id/textView_mocaQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="231dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="362dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#B1B1B1"
+        android:textColorLink="#E1DFDF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_mocaAgreeSV"
+        android:layout_width="218dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginBottom="151dp"
+        android:background="#6E9173"
+        android:clickable="true"
+        android:onClick="SV"
+        android:text="@string/txt_mocaAgreeSV" />
+
+    <Button
+        android:id="@+id/button_mocaDisagreeSV"
+        android:layout_width="218dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginBottom="45dp"
+        android:background="#F16B6B"
+        android:clickable="true"
+        android:onClick="noSV"
+        android:text="@string/txt_mocaDisagreeSV" />
+
+    <EditText
+        android:id="@+id/editText_mocaAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="166dp"
+        android:ems="10"
+        android:hint="type here..."
+        android:inputType="textPersonName"
+        android:textColor="#FBFAFA"
+        android:textColorHint="#C5C5C5" />
+
+    <Button
+        android:id="@+id/btn_mocaSubmitAnimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="161dp"
+        android:layout_marginRight="161dp"
+        android:layout_marginBottom="120dp"
+        android:clickable="true"
+        android:onClick="btnSubmit"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/textView_mocaRecall"
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="301dp"
+        android:gravity="center"
+        android:text=" "
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/editText_mocaRecall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="207dp"
+        android:ems="10"
+        android:hint="type here..."
+        android:inputType="textPersonName"
+        android:textColor="#EDEDED"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_submitRecall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="161dp"
+        android:background="#787878"
+        android:clickable="true"
+        android:onClick="submitRecall1"
+        android:text="submit"
+        android:textColor="#C6C6C6"
+        android:textColorHighlight="#CCCCCC" />
+
+    <Button
+        android:id="@+id/button_mocaLangYES"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginBottom="28dp"
+        android:text="Fluent" />
+
+    <Button
+        android:id="@+id/button_mocaLangNO"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginLeft="206dp"
+        android:layout_marginBottom="28dp"
+        android:text="Not Fluent" />
+
+    <ImageView
+        android:id="@+id/imageView_1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageView_e"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="49dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/moca_1" />
+
+    <ImageView
+        android:id="@+id/imageView_a"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/moca_a" />
+
+    <ImageView
+        android:id="@+id/imageView_2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="23dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/moca_2" />
+
+    <ImageView
+        android:id="@+id/imageView_b"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="427dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginRight="123dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/moca_b" />
+
+    <ImageView
+        android:id="@+id/imageView_3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="77dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/moca_3" />
+
+    <ImageView
+        android:id="@+id/imageView_c"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginBottom="56dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/moca_c" />
+
+    <ImageView
+        android:id="@+id/imageView_4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="161dp"
+        android:layout_marginRight="161dp"
+        android:layout_marginBottom="141dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/moca_4" />
+
+    <ImageView
+        android:id="@+id/imageView_d"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginBottom="142dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/moca_d" />
+
+    <ImageView
+        android:id="@+id/imageView_5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="379dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/moca_5" />
+
+    <ImageView
+        android:id="@+id/imageView_e"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="319dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/moca_e" />
+
+    <ImageView
+        android:id="@+id/imageView_arrow1"
+        android:layout_width="98dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/imageView_a"
+        android:layout_alignBottom="@+id/imageView_1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:layout_marginBottom="55dp"
+        android:rotation="-46"
+        android:visibility="visible"
+        app:srcCompat="@drawable/moca_arrow" />
+
+    <ImageView
+        android:id="@+id/imageView_arrow2"
+        android:layout_width="70dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/imageView_a"
+        android:layout_alignLeft="@+id/imageView_a"
+        android:layout_alignTop="@+id/imageView_a"
+        android:layout_alignBottom="@+id/imageView_2"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="-29dp"
+        android:layout_marginRight="-29dp"
+        android:layout_marginBottom="52dp"
+        android:layout_toStartOf="@+id/imageView_2"
+        android:layout_toLeftOf="@+id/imageView_2"
+        android:rotation="50"
+        android:visibility="visible"
+        app:srcCompat="@drawable/moca_arrow2" />
+
+    <TextView
+        android:id="@+id/textView_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginLeft="137dp"
+        android:layout_marginTop="301dp"
+        android:text="End" />
+
+    <TextView
+        android:id="@+id/textView_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView_1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginLeft="137dp"
+        android:layout_marginBottom="59dp"
+        android:text="Begin" />
+
+</RelativeLayout>
