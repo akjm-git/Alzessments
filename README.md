@@ -9,5 +9,5 @@ Part of a Practical Computerized Decision Support System for Predicting the Seve
                                        https://www.sciencedirect.com/science/article/abs/pii/S0957417419302520
 
 Author:
-    Anthony McGuigan 
- Ulster University Magee
+    Anthony McGuigan, 
+    Ulster University Magee
